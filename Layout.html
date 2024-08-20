@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-align: center;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .header,.footer{
+            height: 45px;
+            background: #000;
+
+        }
+        .header,.footer,.content{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .content{
+            background: white;
+            height: 90vh;
+            flex-direction: column;
+        }
+        section{
+            height: 45vh;
+            width: 100%;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            logo
+        </div>
+        <div class="nav">
+            nav
+            nav
+            nav
+            nav
+
+        </div>
+        <div class="cart">
+            cart
+        </div>
+    </div>
+    
+    <div class="content">
+        <section>
+            section</section>
+       <section style="background-color: rgb(210, 209, 206);">
+            section</section>
+            <section style="background-color: rgb(155, 154, 150);">
+                section</section>
+               
+
+    </div>
+    <div class="footer">
+        footer
+    </div>
+</body>
+</html>
